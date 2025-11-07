@@ -28,24 +28,22 @@
                     android:id="@+id/imageView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@tools:sample/avatars"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    tools:srcCompat="@drawable/top_background" />
+                    app:srcCompat="@drawable/top_background" />
 
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="32dp"
-                    android:src="@tools:sample/avatars"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@+id/imageView"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.29000002"
-                    tools:srcCompat="@drawable/profile" />
+                    app:srcCompat="@drawable/profile" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -100,8 +98,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
-                            android:src="@tools:sample/avatars"
-                            tools:srcCompat="@drawable/video_call" />
+                            app:srcCompat="@drawable/video_call" />
 
                         <TextView
                             android:id="@+id/textView5"
@@ -127,8 +124,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
-                            android:src="@tools:sample/avatars"
-                            tools:srcCompat="@drawable/notification" />
+                            app:srcCompat="@drawable/notification" />
 
                         <TextView
                             android:id="@+id/textView5"
@@ -154,8 +150,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
-                            android:src="@tools:sample/avatars"
-                            tools:srcCompat="@drawable/voice_call" />
+                            app:srcCompat="@drawable/voice_call" />
 
                         <TextView
                             android:id="@+id/textView5"
@@ -199,11 +194,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
-                    android:src="@tools:sample/avatars"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    tools:srcCompat="@drawable/logo" />
+                    app:srcCompat="@drawable/logo" />
 
                 <TextView
                     android:id="@+id/textView6"
@@ -253,12 +247,11 @@
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="16dp"
-                                android:src="@tools:sample/avatars"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                tools:srcCompat="@drawable/ic_1" />
+                                app:srcCompat="@drawable/ic_1" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
@@ -293,12 +286,11 @@
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="16dp"
-                                android:src="@tools:sample/avatars"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                tools:srcCompat="@drawable/ic_2" />
+                                app:srcCompat="@drawable/ic_2" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
@@ -333,12 +325,11 @@
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="16dp"
-                                android:src="@tools:sample/avatars"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                tools:srcCompat="@drawable/ic_3" />
+                                app:srcCompat="@drawable/ic_3" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
@@ -373,12 +364,11 @@
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="16dp"
-                                android:src="@tools:sample/avatars"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                tools:srcCompat="@drawable/ic_4" />
+                                app:srcCompat="@drawable/ic_4" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
@@ -420,12 +410,11 @@
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="16dp"
-                                android:src="@tools:sample/avatars"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                tools:srcCompat="@drawable/ic_5" />
+                                app:srcCompat="@drawable/ic_5" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
@@ -460,12 +449,11 @@
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="16dp"
-                                android:src="@tools:sample/avatars"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                tools:srcCompat="@drawable/ic_6" />
+                                app:srcCompat="@drawable/ic_6" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
@@ -500,12 +488,11 @@
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="16dp"
-                                android:src="@tools:sample/avatars"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                tools:srcCompat="@drawable/ic_7" />
+                                app:srcCompat="@drawable/ic_7" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
@@ -541,12 +528,11 @@
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="16dp"
-                                android:src="@tools:sample/avatars"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                tools:srcCompat="@drawable/ic_8" />
+                                app:srcCompat="@drawable/ic_8" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView

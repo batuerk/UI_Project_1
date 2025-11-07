@@ -25,8 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
-                android:src="@tools:sample/avatars"
-                tools:srcCompat="@drawable/top_background2" />
+                app:srcCompat="@drawable/top_background2" />
 
             <TextView
                 android:id="@+id/textView"
@@ -94,8 +93,7 @@
                 android:layout_gravity="end"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="32dp"
-                android:src="@tools:sample/avatars"
-                tools:srcCompat="@drawable/btn_arrow2" />
+                app:srcCompat="@drawable/btn_arrow2" />
 
             <TextView
                 android:id="@+id/textView2"
